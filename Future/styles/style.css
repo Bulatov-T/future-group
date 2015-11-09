@@ -1,0 +1,370 @@
+@font-face {
+	font-family: "proxima-light";
+	src: url(../fonts/proximanovalight.ttf);
+}
+@font-face {
+	font-family: "proxima-bold"
+	src: url(../fonts/proximanova-bold);
+}
+@font-face {
+	font-family: "proxima";
+	src: url(../fonts/proximanovacond-regular.otf);
+}
+body {
+	background-color: white;
+	width:1280px;
+	font-family: proxima-light;
+}
+header {
+	height: 80px;
+	background-color: white;
+	position: relative;
+	/*z-index:0; * Прописать 1 для вывода над slide_1 */
+	
+}
+header img {
+	margin-left: 170px;
+	margin-top: 17px;
+	float: left;
+}
+header nav ol {
+	float:left;
+	margin-left: 25px;
+	margin-top: 30px;
+}
+header nav ol li{
+list-style: none;
+display: inline;
+float: left;
+margin-left: 25px;
+color: #999999;
+}
+header nav a {
+	float: right;
+	margin-top: 30px;
+	color: #ce1350;
+	margin-right: 170px;
+	text-decoration: none;
+}
+#slide_1 {
+	background-image: url(../img/slide_1.png);
+	background-origin: border-box;
+	height:685px;
+		
+}
+#slide_1 span {
+	position: relative;
+	top: 185px;
+	left:180px;
+	color: white;
+	padding-left: 20px;
+	margin:-20px;
+
+}
+#slide_1 span p {
+	background-color: rgba(91, 40, 110, 0.4);
+	font-size: 35pt;
+	display: inline;
+	background-origin: border-box;
+	background-clip: 10px;
+
+	}
+#slide_1 #begin {
+	position: relative;
+	top: 260px;
+	left: -170px;
+	font-size: 10pt;
+	font-weight: bold;
+	padding: 20px 30px;
+	background-color: #3a7dbb;
+	border-radius: 5px;
+	color: white;
+	text-decoration: none;
+}
+#slide_1 #begin:hover {
+	background-color: #5492cb;
+}
+#slide_2 {
+	height: 700px;
+	background-color: #f8f8f8;
+}
+#slide_2 img {
+	position: relative;
+	top: 75px;
+	left: 130px;
+	float:left;
+}
+#slide_2_text {
+	position: relative;
+	top: 100px;
+	left: 135px;
+	float: left;
+}
+#slide_2_text span {
+	font-family: proxima;
+	font-size: 12pt;
+	width: 550px;
+	text-align: justify;
+	line-height: 22px;
+	color: #52555c;
+	display: inline-block;
+}
+#slide_2_text h1 {
+	color: #4182bd;
+	font-size: 20pt;
+}
+#slide_2_text h3 {
+	color: #3d4258;
+}
+ #slide_2 #begin {
+	text-decoration: none;
+	color: #3d4258;
+	border: 2px solid;
+	border-radius: 5px;
+	padding: 15px 25px;
+	font-weight: bold;
+	position: relative;
+	top: 430px;
+	left: -415px;
+	z-index: 1;
+}
+#slide_2 #begin:hover {
+	color: white;
+	background-color: rgb(58, 125, 187);
+}
+#force {
+	position: relative;
+	display: table;
+	top: 70px;
+	left: 135px;
+	width: 500px;
+	height: 200px;
+}
+#force div {
+	width: 300px;
+	display: table-cell;
+}
+#force #numbers {
+	font-family: proxima-bold;
+	font-size: 72px;
+	font-weight: bold;
+	
+	margin-bottom: -15px;
+
+}
+#force #numb_text {
+	font-size: 12px;
+}
+#number_1 {
+	color: #3a7dbb;
+}
+#number_2 {
+	color: #5b286e;
+
+}
+#number_3 {
+	color: #ce1350;
+
+}
+#slide_3 {
+	height: 700px;
+	margin-left: 170px;
+}
+#slide_3 h1 {
+	color: #4182bd;
+	font-size: 20pt;
+	margin-bottom: 0px;
+}
+#slide_3 p {
+	color: #52555c;
+	font-size: 15px;
+	font-family: proxima;
+}
+#counter ol {
+	list-style: none;
+	margin-left: -40px;
+}
+#counter ol li label {
+	font-size: 16px;
+	font-family: proxima;
+	font-weight: bold;
+}
+#counter ol li {
+	display: inline;
+}
+#range {
+	margin-left: 30px;
+	margin-right:  30px;
+	width: 180px;
+}
+#put_money {
+	font-size: 12pt;
+	font-family: proxima;
+	height: 50px;
+	width: 150px;
+	padding-left: 20px;
+	color: #00a1a1;
+	margin-left: 20px;
+}
+#cash {
+	text-decoration: none;
+	color: white;
+	font-family: proxima;
+	font-weight: bold;
+	padding: 20px 30px;
+	background-color: #d32960;
+	border-radius: 5px;
+}
+#cash:hover {
+	background-color: #ce1350;
+}
+#counter p {
+	margin-left: 97px;
+	font-size: 12px;
+}
+#slide_3_foot img {
+	float: left;
+}
+#slide_3_text {
+	position: relative;
+	top: 70px;
+}
+#slide_3_text p {
+	font-size: 15px;
+	line-height: 24px;
+}
+#slide_3_text a {
+	position: relative;
+	top: 25px;
+	text-decoration: none;
+	color: #414449;
+	border: 3px solid #414449;
+	border-radius: 5px;
+	padding: 15px 25px;
+}
+#slide_3_text a:hover {
+	background-color: #414449;
+	color: white;
+}
+#slide_4 {
+	background-color: #3d4258;
+	height: 700px;
+}
+#slide_4 h1{
+	margin-left: 170px;
+	font-size: 20pt;
+	color: white;
+	position: relative;
+	top: 25px;
+}
+.preim {
+
+	margin-left: 145px;
+	width: 975px;
+}
+.preim div {
+	display: inline;
+	width: 300px;
+	height: 200px;
+	float: left;
+	color: white;
+	margin-top: 25px;
+	margin-left: 25px;
+}
+.preim img {
+	margin-left: 120px;
+	margin-right: 120px;
+	margin-top: 30px;
+	margin-bottom: 26px;
+}
+#slide_4 #begin {
+	margin-left: 170px;
+	text-decoration: none;
+	color: #ce1350;
+	padding: 15px 25px;
+	border: 1px solid #ce1350;
+	border-radius: 5px;
+	font-family: proxima-bold;
+	font-weight: bold;
+	position: relative;
+	top: 60px;
+}
+#slide_4 #begin:hover {
+	color: white;
+	background-color: #ce1350;
+	padding: 15px 25px;
+}
+ /*Стиль блоков 4 слайда*/ 
+ #invest { /*Инвестиции в зарубежные рынки*/
+ 	background-color: #3a7dbb;
+ }
+ .preim div span {
+ 	height: 70px;
+ 	font-size: 18px;
+ 	font-weight: bold;
+ 	display: block;
+ 	padding-left: 20px;
+ 	padding-top: 6px;
+ }
+ #invest span {
+ 	background-color: #264a76;
+ }
+#garant {
+ 	background-color: #3a7dbb;
+ }
+#garant span{
+	background-color: #264a76;
+}
+#docum {
+	background-color: #5b286e;
+}
+#docum span{
+ 	background-color: #37204f;
+ 	margin-top: 7px;
+ }
+#divers {
+	background-color: #5b286e;
+}
+#divers span {
+	background-color: #37204f;
+}
+#port {
+	background-color: #ce1350;
+} 
+#port span {
+	background-color: #701640;
+	margin-top: 9px;
+}
+#buy {
+	background-color: #ce1350;
+}
+#buy span {
+	background-color: #701640;
+	margin-top: 9px;
+}
+footer {
+	font-family: proxima;
+	position: relative;
+	bottom: -114px;
+	height: 60px;
+	background-color: #42475c;
+	color: white;
+	padding-left: 170px;
+	
+}
+footer span {
+	margin-top: 20px;
+}
+#copy {
+	float: left;
+
+}
+#future-group {
+	
+	float: right;
+	margin-right: 170px;
+
+}
+#future-group a {
+	color: white; 
+}
